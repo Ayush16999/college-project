@@ -120,7 +120,7 @@ section .data {
 /* ------------------home img----------- */
 .bgimg {
   background: -webkit-linear-gradient(rgba(55, 55, 55, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/bg.jpg");
+    url("https://raw.githubusercontent.com/Ayush16999/college-project/main/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
