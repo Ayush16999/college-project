@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Unbounded:wght@300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navbar styling */
+
+.navbar {
+  font-family: "Unbounded", cursive;
+  background-color: #1c82ad;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar img {
+  width: 100px;
+  object-fit: cover;
+  margin-left: 5rem;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 2rem;
+  margin-right: 4rem;
+}
+
+.navbar ul li {
+  margin: 0px 18px;
+  list-style: none;
+}
+
+.navbar ul li button {
+  border: none;
+  background-color: #1c82ad;
+  color: white;
+  font-size: 1rem;
+  /* font-weight: bolder; */
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.navbar ul li button:hover {
+  text-decoration: underline;
+  text-underline-offset: 30px;
+}
+
+/* -----------------button(navbar - button) color active  */
+
+.navbar ul li button.active {
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-thickness: 4px;
+  }
+  
+
+/* section styling */
+
+section {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+section .menu {
+  text-align: center;
+  width: 10vw;
+  height: calc(100vh - 8.8vh);
+  background-color: #1c82ad;
+  color: white;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.menu table {
+    padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: min-content;
+}
+
+section .menu button {
+  width: inherit;
+  height: 2rem;
+  border: 1px solid white;
+  background-color: #1c82ad;
+  color: white;
+  font-size: 1.1rem;
+  /* font-weight: bolder; */
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+section .menu button:hover {
+  background-color: white;
+  color: #1c82ad;
+}
+
+section .menu td {
+  width: 6.5vw;
+}
+
+section .data {
+  padding: 5rem;
+  width: 90vw;
+}
+
+.data table,
+.data td,
+.data th {
+  border: 1px solid black;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+/* ------------------home img----------- */
+.bgimg {
+  background: -webkit-linear-gradient(rgba(55, 55, 55, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 91.2vh;
+}
+
+.invisible {
+  display: none;
+}
+
+.data table {
+  width: 60vw;
+  margin: auto;
+}
+
+#main-body {
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+
+/* / right side button (keyindicator) */
+
+.menu .menu-table button.active {
+  background-color: white;
+  color: #1c82ad;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
+  
+  h3 {
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+  }
+  
